@@ -98,7 +98,7 @@ img {
 }
 
 #home {
-  background-image: url(../img/saaf_fv_2.jpg);
+  background-image: url(saaf_fv_2.jpg);
   min-height: 100vh;
 }
 
@@ -117,7 +117,7 @@ footer p {
 
 /* ---------MENU--------- */
 #menu {
-  background-image: url(../img/menu_fv.jpg);
+  background-image: url(menu_fv.jpg);
   min-height: 100vh;
 }
 
@@ -156,7 +156,7 @@ footer p {
 
 /* ---------SHOP--------- */
 #shop {
-  background-image: url(../img/shop_fv_2.jpg);
+  background-image: url(shop_fv_2.jpg);
   min-height: 100vh;
 }
 
@@ -179,7 +179,7 @@ footer p {
 }
 
 #shop-contact {
-  background-image: url(../img/shop_contact.jpg);
+  background-image: url(shop_contact.jpg);
   min-height: 100vh;
 }
 
