@@ -77,6 +77,20 @@ img {
   font-weight: normal;
 }
 
+/* ----------Font Awesome---------- */
+.icon {
+  font-size: 3rem;
+}
+
+.icon-1 {
+  color: rgb(224, 11, 210)
+}
+
+.icon-2 {
+  color: rgb(26,110,216);
+}
+
+
 
 /* ----------ボタン---------- */
 .button {
