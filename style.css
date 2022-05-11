@@ -262,7 +262,7 @@ input[type="submit"] {
 }
 
 .location-info {
-  width: 22%;
+  width: 30%;
 }
 
 .location-info p {
@@ -270,8 +270,9 @@ input[type="submit"] {
 }
 
 .location-map {
-  width: 74%;
+  width: 66%;
 }
+
 
 iframe {
   width: 100%;
