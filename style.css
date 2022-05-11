@@ -73,8 +73,9 @@ img {
 
 /* ----------見出し---------- */
 .page-title {
-  font-size: 3rem;
+  font-size: 5rem;
   font-weight: normal;
+  color: #fff;
 }
 
 /* ----------Font Awesome---------- */
@@ -87,7 +88,7 @@ img {
 }
 
 .icon-2 {
-  color: rgb(26,110,216);
+  color: rgb(15, 97, 196);
 }
 
 
