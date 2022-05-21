@@ -55,7 +55,7 @@ img {
 }
 
 .main-nav a {
-  color: #fff;
+  color: #fff
 }
 
 
@@ -136,6 +136,17 @@ footer p {
   min-height: 100vh;
 }
 
+.menu-wrapper {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.menu-wrapper p {
+  font-size: 1.125rem;
+  margin: 10px 0 42px 0;
+  color: #fff;
+}
+
 .menu-content {
   text-align: center;
   margin-top: 10%;
@@ -183,6 +194,7 @@ footer p {
 .shop-content p {
   font-size: 1.125rem;
   margin: 10px 0 42px 0;
+  color: #fff;
 }
 
 .grid {
@@ -241,7 +253,7 @@ input[type="submit"] {
 
 /* ---------contact--------- */
 #contact {
-  background-image: url(contact.jpg);
+  background-image: url(../img/contact.jpg);
   min-height: 100vh;
 }
 
@@ -299,7 +311,6 @@ blockquote {
 
 
 
-
 /* ---------- モバイル版---------- */
 @media (max-width: 600px) {
   .page-header {
@@ -336,10 +347,54 @@ blockquote {
   }
 
 
-  .light-meal {
+  .light-meal, .sweets, .takeout, .drink {
     margin-top: 25%;
   }
 
+
+
+  /* ----------SHOP---------- */
+  .shop-content {
+    margin-top: 20%;
+  }
+
+
+}
+
+
+@media (max-width: 400px) {
+  .page-title {
+    font-size: 1.5rem;
+  }
+  
+  .main-nav {
+    font-size: .8rem;
+    margin-top: 10px;
+  }
+  
+  .main-nav li {
+    margin: 0 10px;
+  }
+
+
+  /* ----------HOME---------- */
+  .home-content {
+    margin-top: 40%;
+  }
+
+
+  /* ----------MENU---------- */
+  .menu-content {
+    margin-top: 20%;
+  }
+
+  .menu-content p {
+    margin: 6px 0 12px 0;
+  }
+
+  .light-meal, .sweets, .takeout, .drink {
+    margin-top: 30%;
+  }
   /* ----------SHOP---------- */
   .shop-content {
     margin-top: 20%;
