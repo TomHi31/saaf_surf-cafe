@@ -179,6 +179,27 @@ footer p {
   margin-top: 10%;
 }
 
+/* ---------アコーディオン-------- */
+.accordion {
+  position: relative;
+}
+
+
+.meal_text {
+  cursor: pointer;
+  border-bottom:1px solid #ccc;
+}
+
+.meal-grid span {
+  position: absolute;
+  top: 0;
+  right: 20%;
+}
+
+.detail {
+  display: none;
+}
+
 
 /* ---------SHOP--------- */
 #shop {
@@ -195,6 +216,30 @@ footer p {
   font-size: 1.125rem;
   margin: 10px 0 42px 0;
   color: #fff;
+}
+
+.brands {
+  text-align: center;
+  margin-top: 6%;
+}
+
+.brands h3 {
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+.brands p {
+  font-size: 1.125rem;
+}
+
+.board-content {
+  margin-top: 10%;
+}
+
+.board-content h3 {
+  font-size: 2.5rem;
+  font-weight: normal;
+  text-align: center;
 }
 
 .grid {
@@ -355,6 +400,14 @@ blockquote {
 
   /* ----------SHOP---------- */
   .shop-content {
+    margin-top: 20%;
+  }
+
+  .brands {
+    margin-top: 20%;
+  }
+
+  .board-content {
     margin-top: 20%;
   }
 
