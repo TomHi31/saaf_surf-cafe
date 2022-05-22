@@ -193,7 +193,10 @@ footer p {
 .meal-grid span {
   position: absolute;
   top: 0;
-  right: 20%;
+  right: 10%;
+  cursor: pointer;
+  font-size: 1.125rem;
+
 }
 
 .detail {
@@ -357,6 +360,14 @@ blockquote {
 
 
 /* ---------- モバイル版---------- */
+@media (max-width: 900px) {
+  
+  .page-title {
+    font-size: 3.0rem;
+  }
+}
+
+
 @media (max-width: 600px) {
   .page-header {
     flex-direction: column;
@@ -369,6 +380,7 @@ blockquote {
   .main-nav {
     font-size: 1.0rem;
     margin-top: 10px;
+    margin: 0 15%;
   }
   
   .main-nav li {
