@@ -5,6 +5,7 @@
     <title>SAAF surf&cafe - shop</title>
     <meta name="description" content="名古屋のサーフィンする人もしない人もwelcomeなサーフショップ&CAFE">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
   <!-- CSS -->
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
@@ -32,72 +33,139 @@
 
     </div> <!-- #shop -->
 
-    <div class="wrapper grid">
-      <div class="item">
-        <img src="board_1.jpg" alt="サーフボードの写真">
-        <p>DEAD KOOKS</p>
-        <p>6'6x20 5/8x2 5/8</p>
-        <p>￥xxx,xxx</p>
-      </div>
+    <div class="wrapper brands">
+      <h3>取り扱いブランド</h3>
+      <p>JOISTIK</p>
+      <p>DEAD KOOKS</p>
+      <p>egoista</p>
+      <p>SKILLZHIGH</p>
+      <p>and more</p>
 
-      <div class="item">
-        <img src="board_2.jpg" alt="サーフボードの写真">
-        <p>DEAD KOOKS</p>
-        <p>6'6x20 5/8x2 5/8</p>
-        <p>￥xxx,xxx</p>
-      </div>
+    </div>
+    
+    <div class="wrapper board-content">
+      <h3>Boards</h3>
 
-      <div class="item">
-        <img src="board_3.jpg" alt="サーフボードの写真">
-        <p>DEAD KOOKS</p>
-        <p>6'6x20 5/8x2 5/8</p>
-        <p>￥xxx,xxx</p>
-      </div>
+      <div class="grid">
+        <div class="item">
+          <div class="board-status">
+            <img src="board_1.jpg" alt="サーフボードの写真">
+            <span>SOLD OUT</span>
+          </div>
+          <div class="accordion">
+            <p class="accordion_text">DEAD KOOKS</p>
+            <span>+</span>
+            <p class="detail">6'6x20 5/8x2 5/8</p>
+            <p class="detail">￥xxx,xxx</p>
+          </div>
+        </div>
 
-      <div class="item">
-        <img src="board_4.jpg" alt="サーフボードの写真">
-        <p>DEAD KOOKS</p>
-        <p>6'6x20 5/8x2 5/8</p>
-        <p>￥xxx,xxx</p>
-      </div>
+        <div class="item">
+          <div class="board-status">
+            <img src="board_2.jpg" alt="サーフボードの写真">
+            <span>SOLD OUT</span>
+          </div>
+          <div class="accordion">
+            <p class="accordion_text">DEAD KOOKS</p>
+            <span>+</span>
+            <p class="detail">6'6x20 5/8x2 5/8</p>
+            <p class="detail">￥xxx,xxx</p>
+          </div>
+        </div>
 
-      <div class="item">
-        <img src="board_5.jpg" alt="サーフボードの写真">
-        <p>egoista</p>
-        <p>6'6x20 5/8x2 5/8</p>
-        <p>￥xxx,xxx</p>
-      </div>
+        <div class="item">
+          <div class="board-status">
+            <img src="board_3.jpg" alt="サーフボードの写真">
+            <span>SOLD OUT</span>
+          </div>
+          <div class="accordion">
+            <p class="accordion_text">DEAD KOOKS</p>
+            <span>+</span>
+            <p class="detail">6'6x20 5/8x2 5/8</p>
+            <p class="detail">￥xxx,xxx</p>
+          </div>
+        </div>
 
-      <div class="item">
-        <img src="board_6.jpg" alt="サーフボードの写真">
-        <p>egoista</p>
-        <p>6'6x20 5/8x2 5/8</p>
-        <p>￥xxx,xxx</p>
-      </div>
+        <div class="item">
+          <div class="board-status">
+            <img src="board_4.jpg" alt="サーフボードの写真">
+            <span>SOLD OUT</span>
+          </div>
+          <div class="accordion">
+            <p class="accordion_text">DEAD KOOKS</p>
+            <span>+</span>
+            <p class="detail">6'6x20 5/8x2 5/8</p>
+            <p class="detail">￥xxx,xxx</p>
+          </div>
+        </div>
 
-      <div class="item">
-        <img src="board_7.jpg" alt="サーフボードの写真">
-        <p>egoista</p>
-        <p>6'6x20 5/8x2 5/8</p>
-        <p>￥xxx,xxx</p>
-      </div>
+        <div class="item">
+          <div class="board-status">
+            <img src="board_5.jpg" alt="サーフボードの写真">
+            <span>SOLD OUT</span>
+          </div>
+          <div class="accordion">
+            <p class="accordion_text">egoista</p>
+            <span>+</span>
+            <p class="detail">6'6x20 5/8x2 5/8</p>
+            <p class="detail">￥xxx,xxx</p>
+          </div>
+        </div>
 
-      <div class="item">
-        <img src="board_8.jpg" alt="サーフボードの写真">
-        <p>NICK BLAIR</p>
-        <p>6'6x20 5/8x2 5/8</p>
-        <p>￥xxx,xxx</p>
-      </div>
+        <div class="item">
+          <div class="board-status">
+            <img src="board_6.jpg" alt="サーフボードの写真">
+            <span>SOLD OUT</span>
+          </div>
+          <div class="accordion">
+            <p class="accordion_text">egoista</p>
+            <span>+</span>
+            <p class="detail">6'6x20 5/8x2 5/8</p>
+            <p class="detail">￥xxx,xxx</p>
+          </div>
+        </div>
 
-      <div class="item">
-        <img src="board_9.jpg" alt="サーフボードの写真">
-        <p>NICK BLAIR</p>
-        <p>6'6x20 5/8x2 5/8</p>
-        <p>￥xxx,xxx</p>
-      </div>
+        <div class="item">
+          <div class="board-status">
+            <img src="board_7.jpg" alt="サーフボードの写真">
+            <span>SOLD OUT</span>
+          </div>
+          <div class="accordion">
+            <p class="accordion_text">egoista</p>
+            <span>+</span>
+            <p class="detail">6'6x20 5/8x2 5/8</p>
+            <p class="detail">￥xxx,xxx</p>
+          </div>
+        </div>
 
-    </div> <!--/.grid-->
+        <div class="item">
+          <div class="board-status">
+            <img src="board_8.jpg" alt="サーフボードの写真">
+            <span>SOLD OUT</span>
+          </div>
+          <div class="accordion">
+            <p class="accordion_text">NICK BLAIR</p>
+            <span>+</span>
+            <p class="detail">6'6x20 5/8x2 5/8</p>
+            <p class="detail">￥xxx,xxx</p>
+          </div>
+        </div>
 
+        <div class="item">
+          <div class="board-status">
+            <img src="board_9.jpg" alt="サーフボードの写真">
+            <span>SOLD OUT</span>
+          </div>
+          <div class="accordion">
+            <p class="accordion_text">NICK BLAIR</p>
+            <span>+</span>
+            <p class="detail">6'6x20 5/8x2 5/8</p>
+            <p class="detail">￥xxx,xxx</p>
+          </div>
+        </div>
+
+      </div> <!--/.grid-->
+    </div> <!--/.wrapper-->
 
     <section id="shop-contact" class="big-bg"> <!--shop contact-->
       <div class="wrapper">
@@ -132,7 +200,6 @@
       </div>
     </footer>
 
-
-
+    <script src="script.js"></script>
   </body>
 </html>
