@@ -185,12 +185,12 @@ footer p {
 }
 
 
-.meal_text {
+.accordion_text {
   cursor: pointer;
   border-bottom:1px solid #ccc;
 }
 
-.meal-grid span {
+.accordion span {
   position: absolute;
   top: 0;
   right: 10%;
@@ -257,6 +257,26 @@ footer p {
   background-image: url(shop_contact.jpg);
   min-height: 100vh;
 }
+
+
+/*---------- 販売状況 ----------*/
+.board-status {
+  position: relative;
+}
+
+.board-status span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: red;
+  border: 1px solid red;
+  background-color: #fff;
+  opacity: 0.8;
+  font-size: 1.5rem;
+  padding: 3%;
+}
+
+
 
 /*---------- shop-contact ----------*/
 
