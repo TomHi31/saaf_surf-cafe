@@ -5,7 +5,7 @@
     <title>SAAF surf&cafe - shop</title>
     <meta name="description" content="名古屋のサーフィンする人もしない人もwelcomeなサーフショップ&CAFE">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <!-- CSS -->
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
     <link rel="stylesheet" href="style.css">
@@ -38,11 +38,19 @@
         <div class="meal-grid">
           <div class="item">
             <img src="meal_1.png" alt="週替わりメニュー">
-            <p>ご飯メニュー 例</p>
+            <div class="accordion">
+              <p class="meal_text">ご飯メニュー 例</p>
+              <span>+</span>
+              <p class="detail">カレー、ナシゴレン、ロコモコ等 <br>週替わりメニューがお楽しみいただけます</p>
+            </div>
           </div>
           <div class="item">
             <img src="meal_2.png" alt="週替わりメニュー">
-            <p>パスタ (パン) メニュー 例</p>
+            <div class="accordion">
+              <p class="meal_text">パスタ (パン) メニュー 例</p>
+              <span>+</span>
+              <p class="detail">パスタ、ハンバーガー 等 <br>週替わりメニューがお楽しみいただけます</p>
+            </div>
           </div>
         </div>
         <div class="weekly-menu">
@@ -129,8 +137,6 @@
         <p><small>&copy; 2022 S.A.A.F. surf&cafe</small></p>
       </div>
     </footer>
-
-
-
+    <script src="script_2.js"></script>
   </body>
 </html>
