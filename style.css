@@ -342,15 +342,15 @@ input[type="submit"] {
 }
 
 .location-info {
-  width: 30%;
+  width: 40%;
 }
 
 .location-info p {
-  padding: 12px 10px;
+  padding: 12px 0px;
 }
 
 .location-map {
-  width: 66%;
+  width: 56%;
 }
 
 
@@ -443,6 +443,25 @@ blockquote {
     margin-top: 20%;
   }
 
+  /* ----------CONTACT---------- */
+
+  #location .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .location-info {
+    width: 100%;
+  }
+  
+  .location-info p {
+    padding: 12px 20%;
+  }
+  
+  .location-map {
+    width: 100%;
+  }
+  
 
 }
 
